@@ -1,7 +1,7 @@
 body{background-color: rgb(224,211,175);}
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     flex-wrap: wrap;
     align-content: center;
 }
