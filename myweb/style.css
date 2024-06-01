@@ -1,0 +1,22 @@
+body{background-color: rgb(224,211,175);}
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.navbar a{
+    border: 5px solid black;
+    padding:5px;
+    margin: 10px;
+    width : 100px;
+    border-radius: 15px;
+    background-color: rgb(220, 198, 140);
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color:rgb(252, 250, 235);
+}
