@@ -33,14 +33,15 @@ function suitablegreeting(){
 function animateTyping() {
       // Get current hour
       var currentHour = new Date().getHours();
+      //console.log(currentHour);
       var greetingtext;
       // Choose greeting based on current hour
       var greetingtext;
       if (currentHour < 12 && currentHour > 6) {
           greetingtext = greetingtext1;
-      } else if (currentHour < 18) {
+      } else if (currentHour < 18 && currentHour >= 12) {
           greetingtext = greetingtext2;
-      } else if (currentHour < 24) {
+      } else if (currentHour >= 18 &&currentHour < 24) {
           greetingtext = greetingtext3;
       }
       else{
@@ -49,7 +50,7 @@ function animateTyping() {
   var animatedText = document.getElementById('animatedText');
   var currentWord = greetingtext[arrayIndex];
   
-  console.log('Before if and else',arrayIndex);
+  //console.log('Before if and else',arrayIndex);
   if (isDeleting) {
     // Start deleting
     if (charIndex > 0) {
