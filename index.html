@@ -8,7 +8,7 @@
         <script src="action.js"></script>
         <link rel="icon" href="https://favicon.twenty.com/github.com" type="image/x-icon">
     </head>
-    <body>
+    <body onload="AboutMe()">
         <div id="About me">
             <h1>About me</h1>
             <p> Hello! My name is Michael. <br>
@@ -46,8 +46,8 @@
             </ul>
         </div>
         <div id="btn">
-            <button onclick="AboutMe()">About me</button>
-            <button onclick="Projects()">Projects</button>
+            <a href="#About me" onclick="AboutMe()">About me</a>
+            <a href="#Projects" onclick="Projects()">Projects</a>
             <a href="resume.pdf" target="_blank" ><i class="fas fa-file"></i> Resume</a>
             <a href="#contact" onclick="copyEmailToClipboard()" id="copyEmailToClipboard"><i class="fas fa-envelope"></i> Contact</a>
         </div>

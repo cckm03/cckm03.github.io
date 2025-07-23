@@ -8,3 +8,13 @@ async function copyEmailToClipboard() {
         console.error('Failed to copy email: ', err);
     }
 }
+
+function AboutMe() {
+    document.getElementById('About me').style.display = "block";
+    document.getElementById('Projects').style.display = "none";
+}
+
+function Projects() {
+    document.getElementById('About me').style.display = "none";
+    document.getElementById('Projects').style.display = "block";
+}
