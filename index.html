@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cckm03</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="action.js"></script>
+        <link rel="icon" href="https://favicon.twenty.com/github.com" type="image/x-icon">
+    </head>
+    <body>
+        <div id="About me">
+            <h1>About me</h1>
+            <p> Hello! My name is Michael. <br>
+                I am a graduate from HKUST having a foundation in programming and algorithms, with a desire to
+                apply these skills to solve real-world problems. 
+                Always eager to learn and master new technologies and concepts. 
+                Looking forward to applying my knowledge and gaining hands on experience in a dynamic work environment.
+            </p>
+        </div>
+        <div id="Projects">
+            <h1>Projects</h1>
+            <ul>
+                <li>
+                    <a href="https://github.com/cckm03/COMP4021-multiplayer-online-game-project" target="_blank">multiplayer-online-game-project</a>
+                    <p class="project-description"> 
+                        This is an online web application project from COMP4021 internet computing. We have to make a real time multiplayer online
+                        game. I am responsible for writing WebSocket Api, RESTful Api with ajax and some of the
+                        gaming area UI. This project demonstrates my web development skills.
+                    </p>
+                </li>
+                <li>
+                    <a href="https://github.com/cckm03/COMP4321-project-phase-1" target="_blank">Search Engine Project Phase 1</a><br>
+                    <a href="https://github.com/cckm03/COMP4321-project-phase-2" target="_blank">Search Engine Project Phase 2</a>
+                    <p class="project-description">
+                        This is a search engine project from COMP4321 Search Engines for Web and Enterprise Data.
+                        <br><br>
+                        Phase 1: Create a crawler that can crawl through a website and retrieve data, an indexer that
+                        can extracts keywords from a page and inserts them into an inverted file and a database that
+                        stores all the useful data for the search engine to use.
+                        <br><br>
+                        Phase 2: Create a search engine with GUI for the users to input query and get the result.
+                        I responsible for making the crawler in Phase 1 and ranking and output results in Phase 2.
+                    </p>    
+                </li>
+            </ul>
+        </div>
+        <div id="btn">
+            <button onclick="AboutMe()">About me</button>
+            <button onclick="Projects()">Projects</button>
+            <a href="resume.pdf" target="_blank" ><i class="fas fa-file"></i> Resume</a>
+            <a href="#contact" onclick="copyEmailToClipboard()" id="copyEmailToClipboard"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+    </body>
+</html>
