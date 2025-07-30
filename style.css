@@ -110,3 +110,9 @@ div {
     padding: 2%;
     margin: 2%;
 }
+
+#Projects li a{
+    font-size: 3.5 vh;
+    color: darkblue;
+    font-family: 'Raleway', sans-serif;
+}
